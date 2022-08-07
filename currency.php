@@ -20,7 +20,7 @@ foreach($currency as $key=>$value){
             // echo     $country[1]."<br>";      //國名
 
 
-            echo '<div class="card col-12 col-sm-6 col-md-3" >';
+            echo '<div class="card col-8 col-sm-6 col-md-3" >';
             echo '<img class="card-img-top" src=./img/'.$country[1].'.png alt="Card image" style="width:100%">';
             echo '<div class="card-body">';
             echo '<h4 class="card-title">USD=>'.$country[1].'</h4>';
@@ -33,7 +33,7 @@ foreach($currency as $key=>$value){
 
 
         case 'USDCAD':
-            echo '<div class="card col-12 col-sm-6 col-md-3" >';
+            echo '<div class="card col-8 col-sm-6 col-md-3" >';
             echo '<img class="card-img-top" src=./img/'.$country[1].'.png alt="Card image" style="width:100%">';
             echo '<div class="card-body">';
             echo '<h4 class="card-title">USD=>'.$country[1].'</h4>';
@@ -46,7 +46,7 @@ foreach($currency as $key=>$value){
 
 
         case 'USDEUR':
-            echo '<div class="card col-12 col-sm-6 col-md-3" >';
+            echo '<div class="card col-8 col-sm-6 col-md-3" >';
             echo '<img class="card-img-top" src=./img/'.$country[1].'.png alt="Card image" style="width:100%">';
             echo '<div class="card-body">';
             echo '<h4 class="card-title">USD=>'.$country[1].'</h4>';
@@ -59,7 +59,7 @@ foreach($currency as $key=>$value){
 
 
         case 'USDGBP':
-            echo '<div class="card col-12 col-sm-6 col-md-3" >';
+            echo '<div class="card col-8 col-sm-6 col-md-3" >';
             echo '<img class="card-img-top" src=./img/'.$country[1].'.png alt="Card image" style="width:100%">';
             echo '<div class="card-body">';
             echo '<h4 class="card-title">USD=>'.$country[1].'</h4>';
@@ -72,7 +72,7 @@ foreach($currency as $key=>$value){
 
 
         case 'USDHKD':
-            echo '<div class="card col-12 col-sm-6 col-md-3" >';
+            echo '<div class="card col-8 col-sm-6 col-md-3" >';
             echo '<img class="card-img-top" src=./img/'.$country[1].'.png alt="Card image" style="width:100%">';
             echo '<div class="card-body">';
             echo '<h4 class="card-title">USD=>'.$country[1].'</h4>';
@@ -85,7 +85,7 @@ foreach($currency as $key=>$value){
 
 
         case 'USDINR':
-            echo '<div class="card col-12 col-sm-6 col-md-3" >';
+            echo '<div class="card col-8 col-sm-6 col-md-3" >';
             echo '<img class="card-img-top" src=./img/'.$country[1].'.png alt="Card image" style="width:100%">';
             echo '<div class="card-body">';
             echo '<h4 class="card-title">USD=>'.$country[1].'</h4>';
@@ -98,7 +98,7 @@ foreach($currency as $key=>$value){
 
 
         case 'USDJPY':
-            echo '<div class="card col-12 col-sm-6 col-md-3" >';
+            echo '<div class="card col-8 col-sm-6 col-md-3" >';
             echo '<img class="card-img-top" src=./img/'.$country[1].'.png alt="Card image" style="width:100%">';
             echo '<div class="card-body">';
             echo '<h4 class="card-title">USD=>'.$country[1].'</h4>';
@@ -111,7 +111,7 @@ foreach($currency as $key=>$value){
 
 
         case 'USDKRW':
-            echo '<div class="card col-12 col-sm-6 col-md-3" >';
+            echo '<div class="card col-8 col-sm-6 col-md-3" >';
             echo '<img class="card-img-top" src=./img/'.$country[1].'.png alt="Card image" style="width:100%">';
             echo '<div class="card-body">';
             echo '<h4 class="card-title">USD=>'.$country[1].'</h4>';
@@ -124,7 +124,7 @@ foreach($currency as $key=>$value){
 
 
         case 'USDNZD':
-            echo '<div class="card col-12 col-sm-6 col-md-3" >';
+            echo '<div class="card col-8 col-sm-6 col-md-3" >';
             echo '<img class="card-img-top" src=./img/'.$country[1].'.png alt="Card image" style="width:100%">';
             echo '<div class="card-body">';
             echo '<h4 class="card-title">USD=>'.$country[1].'</h4>';
@@ -137,7 +137,7 @@ foreach($currency as $key=>$value){
 
 
         case 'USDRUB':
-            echo '<div class="card col-12 col-sm-6 col-md-3" >';
+            echo '<div class="card col-8 col-sm-6 col-md-3" >';
             echo '<img class="card-img-top" src=./img/'.$country[1].'.png alt="Card image" style="width:100%">';
             echo '<div class="card-body">';
             echo '<h4 class="card-title">USD=>'.$country[1].'</h4>';
@@ -150,7 +150,7 @@ foreach($currency as $key=>$value){
 
 
         case 'USDSGD':
-            echo '<div class="card col-12 col-sm-6 col-md-3" >';
+            echo '<div class="card col-8 col-sm-6 col-md-3" >';
             echo '<img class="card-img-top" src=./img/'.$country[1].'.png alt="Card image" style="width:100%">';
             echo '<div class="card-body">';
             echo '<h4 class="card-title">USD=>'.$country[1].'</h4>';
@@ -163,7 +163,7 @@ foreach($currency as $key=>$value){
 
 
         case 'USDTHB':
-            echo '<div class="card col-12 col-sm-6 col-md-3" >';
+            echo '<div class="card col-8 col-sm-6 col-md-3" >';
             echo '<img class="card-img-top" src=./img/'.$country[1].'.png alt="Card image" style="width:100%">';
             echo '<div class="card-body">';
             echo '<h4 class="card-title">USD=>'.$country[1].'</h4>';
@@ -176,7 +176,7 @@ foreach($currency as $key=>$value){
 
 
         case 'USDTWD':
-            echo '<div class="card col-12 col-sm-6 col-md-3" >';
+            echo '<div class="card col-8 col-sm-6 col-md-3" >';
             echo '<img class="card-img-top" src=./img/'.$country[1].'.png alt="Card image" style="width:100%">';
             echo '<div class="card-body">';
             echo '<h4 class="card-title">USD=>'.$country[1].'</h4>';
@@ -189,7 +189,7 @@ foreach($currency as $key=>$value){
 
 
         case 'USDZAR':
-            echo '<div class="card col-12 col-sm-6 col-md-3" >';
+            echo '<div class="card col-8 col-sm-6 col-md-3" >';
             echo '<img class="card-img-top" src=./img/'.$country[1].'.png alt="Card image" style="width:100%">';
             echo '<div class="card-body">';
             echo '<h4 class="card-title">USD=>'.$country[1].'</h4>';
