@@ -57,6 +57,10 @@ body{
     font-size: 3.5rem;
 }
 
+.row{
+    justify-content: space-around;
+}
+
 .card{
     background: lightsteelblue;
     font-family: 'Pixelade', sans-serif;
