@@ -14,6 +14,10 @@ body{
     flex-wrap: wrap;
 }
 
+section{
+    position: fixed;
+}
+
 .BGsquare{
     height: 200vh;
     z-index: -999;
@@ -43,7 +47,7 @@ body{
 
     100%{
                             /* 負數是由下面往上 */
-        transform: scale(1) translateY(500%) rotate(360deg);
+        transform: scale(1) translateY(-500%) rotate(360deg);
         opacity: 0;
 
     }
